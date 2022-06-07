@@ -1,15 +1,9 @@
+import React from 'react';
 import './Main.css';
-import Animals from '../Animals/Animals';
-import backgroundImg from '../background.jpeg';
+import AnimalList from './AnimalList/AnimalList';
 
 export default function Main({ animals }) {
   return (
-    <main style={{ backgroundImage: `url(${backgroundImg})` }}>
-      {
-        animals.map((animal, i) => 
-          <Animals {...animal}
-            key={animal.name + i} />)
-      }
-    </main>
+    <AnimalList animals={ animals }/>
   );
 }
