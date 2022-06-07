@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    height: 800px;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+animal img {
+    width: 100px;
+}
