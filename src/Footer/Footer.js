@@ -1,4 +1,4 @@
 import './Footer.css';
 export default function Footer() {
-  return <footer></footer>;
+  return <footer>nikihite3@gmail.com</footer>;
 }
