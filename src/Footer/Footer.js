@@ -1,4 +1,4 @@
 import './Footer.css';
-export default function Footer() {
-  return <footer>nikihite3@gmail.com</footer>;
+export default function Footer({ email }) {
+  return <footer>{email}</footer>;
 }
